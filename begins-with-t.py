@@ -5,13 +5,11 @@
 
 import datetime
 day = datetime.datetime.now()
-a = day.strftime("%A")
+a = day.strftime("%A") # string format with directive %A will print full weekday name.
 print ("Today is %s " % (a))
 
-if a[0] == str('T'):
+#statement 'if' will check is first item in list same as letter T 
+if a[0] == str('T'): 
     print ("Yes - %s  begins with a T" % (a))
 else:
     print ("No - %s does not begin with a T" % (a))
-
-
-
