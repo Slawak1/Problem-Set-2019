@@ -2,8 +2,10 @@
 
 Problem Set 2019 for GMIT Data Analytics 
 
-Technologies: Python 
+Technologies: Python
+
 Launch Date: 03.02.2019
+
 Author: Slawomir Sowa
 
 Problem No.1 
