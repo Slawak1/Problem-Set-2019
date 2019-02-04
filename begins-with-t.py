@@ -13,3 +13,4 @@ if a[0] == str('T'):
     print ("Yes - %s  begins with a T" % (a))
 else:
     print ("No - %s does not begin with a T" % (a))
+
