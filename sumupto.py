@@ -3,30 +3,36 @@
 # any positive integer and outputs the
 #sum of all numbers between one and that number.
 
-import sys
+import sys # import system module
 
-a = int (input ("Enter a positive integer, Please: "))
+# Try Except statement allow me to replace 'bad looking' error to defined text
+try:
+    number = int (input ("Enter a positive integer, Please: "))
+except:
+    print ('Provided is not a positive Integer. Start program and try again')
+    sys.exit(0) # stop program after error
 
-# 'if' negative number statement will be printent. 
-if a<0:
-    print ("Sorry, but %d is a negative number." %(a))
+ 
+if number < 0: # check if number is negative
+    # if negative number provided, statement will be printent.
+    print ("Sorry, but %d is a negative number." %(number))
     print ("Start program, and try again." )
     sys.exit(0) # will stop the program after negative number provided
 else:
-    print ("Your number is %d Thank You" %(a))
+    print ("Your number is %d Thank You" %(number))
 
 
 #declaration of variables
 sum = 0
 sum_total = 0
 
-# While loop. loop will be repeted untill 'sum' is lower that 'a', every time added to 'sum_total'
-while sum < a:
+# While loop. loop will be repeted untill 'sum' is lower than 'a', every time added to 'sum_total'
+while sum < number:
     
     sum = sum + 1
     sum_total = sum_total+sum
 
 # print result 
 print (sum_total)
-print ("Sum of all numbers from 0 to %d is %d" %(a, sum_total))
+print ("Sum of all numbers from 0 to %d is %d" %(number, sum_total))
 print ("Thanks You for calculations!!")
