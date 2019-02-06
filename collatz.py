@@ -16,14 +16,14 @@ if number < 0: # check if number is negative
 else:
     print ("Your number is %d Thank You" %(number))
 
-
+# while loop will repeated untill var number = 1 
 while number != 1:
-    if number%2 == 0:
-        number = int (number/2)
+    if number%2 == 0: # if statement checks is modulo of number divided by 2 and is equal 0 
+        number = int (number/2) # if true number is divided by 2 and printed 
         print (number)
     else:
-        number = int ((number * 3) + 1)
+        number = int ((number * 3) + 1) #if not true - number is multiplied by 3 and added 1 and printed 
         print (number)
 
 else:
-    print ('Thank You')
+    print ('Thank You for calculations') # if var number = 1 while loop will end and statement will be printed
