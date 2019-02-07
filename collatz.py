@@ -18,7 +18,7 @@ else:
 
 # while loop will repeated untill var number = 1 
 while number != 1:
-    if number%2 == 0: # if statement checks is modulo of number divided by 2 and is equal 0 
+    if number%2 == 0: # if statement checks is modulo divided by 2 number is equal 0 
         number = int (number/2) # if true number is divided by 2 and printed 
         print (number)
     else:
