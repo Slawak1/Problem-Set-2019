@@ -18,19 +18,18 @@ if number < 0: # check if number is negative
     print ("Start program, and try again." )
     sys.exit(0) # will stop the program after negative number provided
 else:
-    print ("Your number is %d Thank You" %(number))
+    print ("\n Your number is %d Thank You" %(number))
 
 
 list = [] # Empty list, i'll need it later 
-i = 1 # counter
 
-while i <= number: 
+for i in range (1, number+1):
     if number%i == 0: # statemen 'if' checks is number divided with remainder = 0   
         a = int (number/i) # if above is true, number is divided and added to list
         list.append(a) # if number is divided by 1 and by itself, list will contain only 2 elements. 
-    i = i + 1    # incrementation 
     
-print (list)
+    
+print ('%d is divided by ' %(number), list )
 if len(list) == 2: # if list contain only 2 elements - provided number is prime 
     print ('Number %d is Prime' %(number))
 else: # if list contain more than 2 elements number is NOT prime
