@@ -97,7 +97,7 @@ Also every time sum is added to sum_total. Program will   end when condition sum
     Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.
 
 #### Solution
-    File name: squareroot.py
+    File name: squareroot.py 
     First part of program will check of data provided. If string, will print error message. 
     Statement IF will check is number negative. In math theory we can do square root of negative number only if we transform it to a
     complex number. A real number 'a' can be regarded as a complex number 'a + 0i' whose imaginary part is 0. To work with complex 
