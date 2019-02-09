@@ -5,6 +5,7 @@
 
 import sys # import system module
 
+# First we check is provided number is Integer,
 # Try Except statement allow me to replace 'bad looking' error to defined text
 try:
     number = int (input ("Enter a positive integer, Please: "))
@@ -12,9 +13,9 @@ except:
     print ('Provided is not a positive Integer. Start program and try again')
     sys.exit(0) # stop program after error
 
- 
-if number < 0: # check if number is negative
-    # if negative number provided, statement will be printent.
+# check if number is negative
+if number < 0: 
+    
     print ("Sorry, but %d is a negative number." %(number))
     print ("Start program, and try again." )
     sys.exit(0) # will stop the program after negative number provided
@@ -35,4 +36,4 @@ while sum < number:
 # print result 
 print (sum_total)
 print ("Sum of all numbers from 0 to %d is %d" %(number, sum_total))
-print ("Thanks You for calculations!!")
+print ("\n \n Thanks You for calculations!!")

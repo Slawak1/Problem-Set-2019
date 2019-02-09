@@ -22,7 +22,7 @@ else:
 
 
 list = [] # Empty list, i'll need it later 
-i = 1 # counter 
+i = 1 # counter
 
 while i <= number: 
     if number%i == 0: # statemen 'if' checks is number divided with remainder = 0   
@@ -33,7 +33,7 @@ while i <= number:
 print (list)
 if len(list) == 2: # if list contain only 2 elements - provided number is prime 
     print ('Number %d is Prime' %(number))
-else: # if list contain more than 2 elements is NOT prime
+else: # if list contain more than 2 elements number is NOT prime
     print ('Number %d is NOT Prime' % (number))
 
-print ('Thank You for using my Program')
+print ('\n \n Thank You for using my Program')

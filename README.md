@@ -57,15 +57,15 @@ Solution:
     First we check is provided number positive integer (explained in Problem no. 1)
     Prime number is a number which remainder of division is equal 0 only if divided by 1 and by itself. It means that Prime number will give us only two resoults where remainder of division is = 0. We will store resoults of division in list. If list length = 2 number is prime. If list length more that two number is not prime.   
 
-    ref.
-    https://www.w3schools.com/python/ref_list_append.asp
+        ref.
+        https://www.w3schools.com/python/ref_list_append.asp
 
 
     Problem 6
         Write a program that takes a user input string and outputs every second word.
     Solution
-        To solve that problem we need to get a provided by user string as a list. To do that we can use split() function, and use space ' ' as a separator. We will need also list lenth. 
-        To print every second word from list we can use WHILE loop with incrementation + 2.  
+        To solve that problem we need to get a provided by user string as a list. To do that we can use split() function, and use space ' ' as a separator. We will need also list length. 
+        To print every second item from list we can use FOR loop with incrementation step = 2, in range from 0 to list length.   
         When list length is even we were getting an error "IndexError: list index out of range", to avoid that i Used TRY EXCEPT statement.   
 
         ref.
