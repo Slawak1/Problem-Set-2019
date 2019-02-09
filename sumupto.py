@@ -27,7 +27,7 @@ else:
 sum = 0
 sum_total = 0
 
-# While loop. loop will be repeted untill 'sum' is lower than 'a', every time added to 'sum_total'
+# While loop. loop will be repeted untill 'sum' is lower than 'number', every time added to 'sum_total'
 while sum < number:
     
     sum = sum + 1
