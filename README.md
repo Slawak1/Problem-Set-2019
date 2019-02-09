@@ -83,7 +83,7 @@ Problem No. 7
 
 Solution
     First part of program will check of data provided. If string, will print error message. 
-    Statement IF will check is number negative. In math theory we can do square root of negative number only if we transform it to a complex number. A real number 'a' can be regarded as a complex number 'a + 0i' whose imaginary part is 0. To work with complex number we need to import module cmath. If negative number provided IF block will be executed and resoult printed as imaginary part of complex number with 'j'. If positive number provided ELSE block will be executed and resoult of rounding printed.    
+    Statement IF will check is number negative. In math theory we can do square root of negative number only if we transform it to a complex number. A real number 'a' can be regarded as a complex number 'a + 0i' whose imaginary part is 0. To work with complex number we need to import module cmath. If negative number provided IF block will be executed and resoult printed as imaginary part of complex number with 'j'. If positive number provided ELSE block will be executed and resoult of rounding printed..    
 
     ref.
     https://bbolker.github.io/math1mp/notes/random/r3_sqrtminusone.html
