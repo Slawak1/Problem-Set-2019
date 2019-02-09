@@ -33,7 +33,8 @@ Also every time sum is added to sum_total. Program will   end when condition sum
 #### Solution:
     File Name: begins-with-t.py  
     We need to get current date. To do that we can use DATETIME module. By %A directive we can get   today's weekday name 
-    and save it to list 'a' . Now we need to compare first item on the list   with letter 'T'. To do that i can use IF ELSE statement.    
+    and save it to list 'a' . Now we need to compare first item on the list   with letter 'T'. To do that i can use IF ELSE 
+    statement.    
 
     ref.
     https://stackoverflow.com/questions/415511/how-to-get-the-current-time-in-python 
@@ -59,9 +60,9 @@ Also every time sum is added to sum_total. Program will   end when condition sum
 
 #### Solution:
     First we check is provided number positive integer (explained in Problem no. 1), To solve problem we can use WHILE loop, 
-    with nested IF ELSE statement. Loop will be repeated untill number = 1. If number different IF ELSE statement will be executed. 
-    IF statement checks is division remainder of number divided by 2 equal 0. If TRUE number is divided and printed. If NOT 
-    TRUE number is multipiled, added 1 and printed. WHILE loop checks condition again.
+    with nested IF ELSE statement. Loop will be repeated untill number = 1. If number different IF ELSE statement will be 
+    executed. IF statement checks is division remainder of number divided by 2 equal 0. If TRUE number is divided and printed. 
+    If NOT TRUE number is multipiled, added 1 and printed. WHILE loop checks condition again.
 
 #### Problem No 5
     Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.
@@ -94,15 +95,17 @@ Also every time sum is added to sum_total. Program will   end when condition sum
     https://stackoverflow.com/questions/12032214/print-new-output-on-same-line
 
 #### Problem No. 7
-    Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.
+    Write a program that that takes a positive floating point number as input and outputs an approximation of its square 
+    root.
 
 #### Solution
     File name: squareroot.py 
     First part of program will check of data provided. If string, will print error message. 
-    Statement IF will check is number negative. In math theory we can do square root of negative number only if we transform it to a
-    complex number. A real number 'a' can be regarded as a complex number 'a + 0i' whose imaginary part is 0. To work with complex 
-    number we need to import module cmath. If negative number provided IF block will be executed and resoult printed as imaginary part
-    of complex number with 'j'. If positive number provided ELSE block will be executed and resoult of rounding printed.   
+    Statement IF will check is number negative. In math theory we can do square root of negative number only if we 
+    transform it to a complex number. A real number 'a' can be regarded as a complex number 'a + 0i' whose imaginary part 
+    is 0. To work with complex number we need to import module cmath. If negative number provided IF block will be executed 
+    and resoult printed as imaginary part of complex number with 'j'. If positive number provided ELSE block will be 
+    executed and resoult of rounding printed.   
 
     ref.
     https://bbolker.github.io/math1mp/notes/random/r3_sqrtminusone.html
