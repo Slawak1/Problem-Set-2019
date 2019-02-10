@@ -1,3 +1,4 @@
+# Problem No. 4
 # Write a program that asks the user to input any positive integer and outputs the
 # successive values of the following calculation. At each step calculate the next value
 # by taking the current value and, if it is even, divide it by two, but if it is odd, multiply
@@ -25,10 +26,10 @@ else:
 while number != 1:
     if number%2 == 0: # IF statement checks is division remainder of number divided by 2 is equal 0 
         number = int (number/2) # if true number is divided by 2 and printed 
-        print (number)
+        print (number, end=" ")
     else:
         number = int ((number * 3) + 1) #if not true - number is multiplied by 3 and added 1 and printed 
-        print (number)
+        print (number, end=" ")
 
 else: # if number equal 1 while loop will end and statement will be printed
     print ('\n \n Thank You for calculations') 
