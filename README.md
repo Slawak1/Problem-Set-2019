@@ -1,10 +1,13 @@
 # Pands-problem-set
 
- Problem Set 2019 for GMIT Data Analytics 
+### Problem Set 2019 for GMIT Data Analytics 
 
 Author: Slawomir Sowa
+
 Technologies: Python 3.7
+
 Launch Date: 03.02.2019
+
 ---
 
 #### Problem No.1 
