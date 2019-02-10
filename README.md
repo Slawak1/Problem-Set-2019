@@ -118,11 +118,23 @@ Launch Date: 03.02.2019
     Statement IF will check is number negative. In math theory we can do square root of 
     negative number only if we transform it to a complex number. A real number 'a' can be 
     regarded as a complex number 'a + 0i' whose imaginary part is 0. To work with complex 
-    number we need to import module cmath. If negative number provided IF block will be 
-    executed and resoult printed as imaginary part of complex number with 'j'. If positive 
+    number we need to import module cmath. If negative number provided IF block will be executed 
+    and resoult printed as imaginary part of complex number with 'j'. If positive 
     number provided ELSE block will be executed and resoult of rounding printed.    
 
     ref.
     https://bbolker.github.io/math1mp/notes/random/r3_sqrtminusone.html
     https://docs.python.org/2/library/cmath.html
     https://en.wikipedia.org/wiki/Complex_number
+
+
+#### Problem No. 8
+    Write a program that outputs today’s date and time in the format ”Monday, January
+    10th 2019 at 1:15pm”.
+
+#### Solution
+    To get current date and time we can use 'datetime' module. With directives we can set up date and time in a proper way.
+
+    ref. 
+    https://docs.python.org/3/library/datetime.html
+
