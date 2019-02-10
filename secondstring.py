@@ -10,7 +10,7 @@ while i <= l_list:
     try: # we were getting an error, when list length was even. To avoid that I used TRY EXCEPT statement
         print (list[i], end = " ") # by using argument we can print in same line
     except IndexError:
-        pass # skip an error message when list length is even
+        pass # skip error message when list length is even
     
     i = i + 2 # increment by 2 to skip every second word
 
