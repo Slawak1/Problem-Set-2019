@@ -36,4 +36,4 @@ while sum < number:
 # print result 
 print (sum_total)
 print ("Sum of all numbers from 0 to %d is %d" %(number, sum_total))
-print ("\n \n Thanks You for calculations!!")
+print ("\n \n Thank You for calculations!!")
