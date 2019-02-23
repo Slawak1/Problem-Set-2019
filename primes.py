@@ -13,7 +13,7 @@ except:
 
  
 if number < 0: # check if number is negative
-    # if negative number provided, statement will be printent.
+    # if negative number provided, statement will be printend.
     print ("Sorry, but %d is a negative number." %(number))
     print ("Start program, and try again." )
     sys.exit(0) # will stop the program after negative number provided
@@ -21,16 +21,16 @@ else:
     print ("\n Your number is %d Thank You" %(number))
 
 
-list = [] # Empty list, i'll need it later 
+a_list = [] # create Empty list, i'll need it later 
 
-for i in range (1, number+1):
+for i in range (1, number+1): 
     if number%i == 0: # statemen 'if' checks is number divided with remainder = 0   
         a = int (number/i) # if above is true, number is divided and added to list
-        list.append(a) # if number is divided by 1 and by itself, list will contain only 2 elements. 
+        a_list.append(a) # if number is divided by 1 and by itself, list contains only 2 elements. 
     
     
-print ('%d is divided by ' %(number), list )
-if len(list) == 2: # if list contain only 2 elements - provided number is prime 
+print ('%d is divided by ' %(number), a_list )
+if len(a_list) == 2: # check list length, if list contain only 2 elements - provided number is prime 
     print ('Number %d is Prime' %(number))
 else: # if list contain more than 2 elements number is NOT prime
     print ('Number %d is NOT Prime' % (number))
