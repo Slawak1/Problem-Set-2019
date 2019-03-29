@@ -2,7 +2,25 @@
 # Write a program that outputs today’s date and time in the format ”Monday, January
 # 10th 2019 at 1:15pm”.
 
-import datetime
-d = datetime.datetime.now()
-print (d.strftime('%A, %B %dth %Y at %I:%M %p '))
+import datetime 
 
+
+d = datetime.datetime.now() #get current date and time
+
+# block of if, elif and else statements, to generate proper suffix depends on the day of the month 
+if d.day in (1,21,31): # check is todays day number is in tuple 
+    suffix = 'st'  # if True, assign proper suffix to variable ane print 
+    print (suffix)
+elif d.day in (2,22):
+    suffix = 'nd'
+    print (suffix)
+elif d.day in (3,23):
+    suffix = 'nd'
+    print (suffix)
+else:
+    suffix  = 'th'
+    print (suffix)
+
+print ((d.strftime('%A, %B %d'))+suffix, (d.strftime('%Y at %I:%M %p'))) #function strftime() - format string with directives as an arguments
+
+print ("\n Thank You.")
