@@ -2,7 +2,7 @@
 # Write a program that that takes a positive floating point number as input and outputs
 # an approximation of its square root.
 
-# import moudules 'numpy', and 'cmath', from 'numpy' I can get functions sqrt(), around() 
+# import moudules 'numpy', and 'cmath', from 'numpy' to get functions sqrt(), around() 
 # 'cmath' will allow me to work with complex numbers in case of negative number provided
 import numpy as np
 import cmath as cm
@@ -30,6 +30,5 @@ else:
     #r_number - rounded number
     r_number = np.around(number, decimals=1 ) #round number to first decimal place 
     print ('Approximitation of squared number is', r_number)
-
 
 print ('\n Thank You for using my program!!')
