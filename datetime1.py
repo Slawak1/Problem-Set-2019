@@ -7,15 +7,15 @@ import datetime
 
 d = datetime.datetime.now() #get current date and time
 
-# block of if, elif and else statements, to generate proper suffix depends on the day of the month 
-if d.day in (1,21,31): # check is todays day number is in tuple 
-    suffix = 'st'  # if True, assign proper suffix to variable ane print 
+# I used block of if, elif and else statements, to generate proper suffix depends on the day of the month 
+if d.day in (1,21,31): # checks is todays day number in tuple 
+    suffix = 'st'  # if True, assign proper suffix to variable and print 
     print (suffix)
 elif d.day in (2,22):
     suffix = 'nd'
     print (suffix)
 elif d.day in (3,23):
-    suffix = 'nd'
+    suffix = 'rd'
     print (suffix)
 else:
     suffix  = 'th'
