@@ -5,7 +5,7 @@
 
 text = str (input ('Please enter a sentence: ')) # takes user input and save it to var text as a string.
 a_list = text.split(' ') # split() function allow me to separate each word and store it to list
-
+# print (type(a_list))
 l_list = len(a_list) # checks length of list 
 
 #i = 0 # define i as 0 to start iterate from index 0 on list
